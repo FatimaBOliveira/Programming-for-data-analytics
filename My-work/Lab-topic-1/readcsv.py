@@ -28,7 +28,6 @@ with open (DATADIR + FILENAME, "rt") as fp:
         linecount += 1
 
 
-
 # 4. Modify the program to calculate the average age, there are a few ways to solve this;
 
     # 4a. Convert the string that is read into an integer
@@ -43,7 +42,7 @@ with open (DATADIR + FILENAME, "rt") as fp:
         else: # all subsequent rows
             total += int(line[1]) # why 1-> because "age" is in column 1.
         linecount += 1
-    print (f"average is {total/(linecount-1)}") # why -1 ?
+    print (f"average is {int(total/(linecount-1))}") # why -1? -> Because the first in the linecount is the header and so no need to consider it.
 
     # 4b. b. Use the quote parameter to read in the numbers as floats
 
@@ -52,23 +51,26 @@ with open (DATADIR + FILENAME, "rt") as fp:
     linecount = 0
     total = 0
     for line in reader:
-        if not linecount: # first row in header row
+        if not linecount: 
             pass
-        else: # all subsequent rows
-            total += line[1] # why 1
+        else:
+            total += line[1] 
         linecount += 1
-    print (f"average is {total/(linecount-1)}") # why -1 ?
+    print (f"average is {total/(linecount-1)}") 
 
 
 # 5. The CVS file could of course have been read in as a Dictionary object Using DictReader().
 
-# some code is deleted from here
 with open (DATADIR + FILENAME, "rt") as fp:
     reader = csv.DictReader(fp, delimiter="," , quoting=csv.QUOTE_NONNUMERIC)
     total = 0
     count = 0
     for line in reader:
-        total += line['age']
+        total += line["age"]
         print (line)
         count +=1
-    print (f"average is {total/(count)}") # why is there no -1 this time? -> because it was located the line["age"] and not the position of the line with linecount.
+    print (f"average is {total/(count)}") # why is there no -1 this time? -> because it was located the line["age"] and not the position of the line with linecount. Count doesn't consider the heading.
+
+# Checking: 
+print(linecount)
+print(count)
