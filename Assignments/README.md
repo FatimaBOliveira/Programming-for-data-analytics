@@ -9,7 +9,7 @@ This README follows the instructions from [Github](https://docs.github.com/en/re
 This subdirectory contains:
 
 - A [REAMDE.md](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/README.md) file, to explain the contents;
-- 4 Jupiter notebooks:
+- 4 Jupyter notebooks:
     - [assignment2-weather.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment2-weather.ipynb), plots 2 variables;
     - [assignment03-pie.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment03-pie.ipynb), generates a pie chart;
     - [assignment_5_risk.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_5_risk.ipynb), simulates dice battles;
@@ -29,12 +29,15 @@ The notebooks can be also run on a virtual machine through Google Colab:
 - assignment2-weather.ipynb:<a target="_blank" href="https://colab.research.google.com/github/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment2-weather.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 - assignment03-pie.ipynb:<a target="_blank" href="https://colab.research.google.com/github/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment03-pie.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 - assignment_5_risk.ipynb:<a target="_blank" href="https://colab.research.google.com/github/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_5_risk.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 - assignment_6_Weather.ipynb:<a target="_blank" href="https://colab.research.google.com/github/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_6_Weather.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
