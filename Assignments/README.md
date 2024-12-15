@@ -1,7 +1,7 @@
 # Programming for Data Analytics - Assignments
 
 This subdirectory contains my approach to the assignments for the module Programming for Data Analytics in the Higher Diploma in Science in Computing in Data Analytics course, [ATU Galway Mayo](https://www.gmit.ie/).
- 
+
 This README follows the instructions from [GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) on how to write README files.
 
 ## About this project
