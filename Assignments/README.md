@@ -1,29 +1,29 @@
 # Programming for Data Analytics - Assignments
 
-This directory contains my approach to the assignments for the module Programming for Data Analytics in the Higher Diploma in Science in Computing in Data Analytics course, [ATU Galway Mayo](https://www.gmit.ie/).
+This subdirectory contains my approach to the assignments for the module Programming for Data Analytics in the Higher Diploma in Science in Computing in Data Analytics course, [ATU Galway Mayo](https://www.gmit.ie/).
  
-This README follows the instructions from [Github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) on how to write README files.
+This README follows the instructions from [GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) on how to write README files.
 
 ## About this project
 
-This subdirectory contains:
+This subdirectory includes:
 
 - 4 Jupyter notebooks:
     - [assignment2-weather.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment2-weather.ipynb), plots 2 variables of a DataFrame;
     - [assignment03-pie.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment03-pie.ipynb), generates a pie chart;
     - [assignment_5_risk.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_5_risk.ipynb), simulates dice battles;
-    - [assignment_6_Weather.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_6_Weather.ipynb), uses the known data to reproduce more new data and plots;
+    - [assignment_6_Weather.ipynb](https://github.com/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment_6_Weather.ipynb), uses the known data to reproduce new data and plots;
 - and a [csv folder](https://github.com/FatimaBOliveira/Programming-for-data-analytics/tree/main/Assignments/csv), with the data downloaded for assignment 2.
 
-Each notebook corresponds to one assignment, all containing a brief explanation of the tasks, the steps taken to do them, and the references that helped me to complete them.
+Each notebook corresponds to one assignment, all containing a brief explanation of the programs, the steps taken to do them, and the references that helped me to complete them. The Python code used follows the [PEP 8](https://realpython.com/python-pep8/) coding style as standard.
 
 ## Purpose of this project
 
-The purpose of this work is to develop skills to create programs that can load data and use many different functions to explore and represent them. I also learned other valuable abilities like creating new data and being able to solve problems with extensive search.
+The purpose of this work is the development of skills to create programs that can load data in different ways, apply various libraries and functions to explore and represent data. I also learnt other valuable abilities, like creating new data and solving problems with extensive search.
 
 ## How to run this project
 
-To run the programs, [Anaconda](https://www.anaconda.com/download) and [Visual Studio Code](https://code.visualstudio.com/Download) need to be installed to run and visualize the data on any machine.
+To run the programs, [Anaconda](https://www.anaconda.com/download) and [Visual Studio Code](https://code.visualstudio.com/Download) need to be installed to run Python code and visualize the data on any machine.
 
 The notebooks can be also run on a virtual machine through Google Colab:
 - assignment2-weather.ipynb:<a target="_blank" href="https://colab.research.google.com/github/FatimaBOliveira/Programming-for-data-analytics/blob/main/Assignments/assignment2-weather.ipynb">

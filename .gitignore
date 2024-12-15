@@ -1,3 +1,8 @@
+################################################################
+# Python .gitignore
+# https://github.com/github/gitignore/blob/main/Python.gitignore
+################################################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -161,6 +166,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+#########################################################################
+# Windows .gitignore
+# https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+#########################################################################
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -185,6 +195,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+######################################################################
+# MacOS .gitignore
+# https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+######################################################################
 
 # General
 .DS_Store
@@ -226,3 +241,40 @@ Temporary Items
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+######################################################################
+# Linux .gitignore
+# https://github.com/github/gitignore/blob/main/Global/Linux.gitignore
+######################################################################
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+#################################################################################
+# Visual Studio Code .gitignore
+# https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#################################################################################
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
